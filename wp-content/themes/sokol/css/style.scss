@@ -1,14 +1,57 @@
 @import 'mixin.scss';
 
 @font-face {
-  font-family: 'MarketDeco';
-  src: url('../fonts/MarketDeco.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/MarketDeco.woff') format('woff'),
-  url('../fonts/MarketDeco.ttf') format('truetype'),
-  url('../fonts/MarketDeco.svg#MarketDeco') format('svg');
+  font-family: 'rockwell';
+  src: url('../fonts/rockwell.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/rockwell.woff') format('woff'),
+  url('../fonts/rockwell.ttf') format('truetype'),
+  url('../fonts/rockwell.svg#MarketDeco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'rockwell';
+  src: url('../fonts/rockwell-bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/rockwell-bold.woff') format('woff'),
+  url('../fonts/rockwell-bold.ttf') format('truetype'),
+  url('../fonts/rockwell-bold.svg#MarketDeco') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gillsans';
+  src: url('../fonts/GillSans.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GillSans.woff') format('woff'),
+  url('../fonts/GillSans.ttf') format('truetype'),
+  url('../fonts/GillSans.svg#MarketDeco') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gillsans';
+  src: url('../fonts/GillSans-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GillSans-Italic.woff') format('woff'),
+  url('../fonts/GillSans-Italic.ttf') format('truetype'),
+  url('../fonts/GillSans-Italic.svg#MarketDeco') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gillsans';
+  src: url('../fonts/GillSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GillSans-Light.woff') format('woff'),
+  url('../fonts/GillSans-Light.ttf') format('truetype'),
+  url('../fonts/GillSans-Light.svg#MarketDeco') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
 
 
 html, body {
@@ -19,8 +62,36 @@ html, body {
   background:#ffffff;
 }
 
+body{
+  border-top: #26A9E0 solid (25em/16);
+}
+
+
 .wrapper {
   width: 100%;
   max-width: (1280em/16);
   margin: 0 auto;
+}
+
+.header{
+
+}
+
+.menu{
+  li{
+    float: left;
+
+    a{
+      display: block;
+      text-transform: uppercase;
+      color: #57575A;
+      font-size: (13em/16);
+      padding: (35em/13) (20em/13) (60em/13);
+      text-decoration: none;
+      font-family: rockwell;
+      &:hover{
+        background: #9DD8F1;
+      }
+    }
+  }
 }
