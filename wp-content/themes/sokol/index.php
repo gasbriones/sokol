@@ -21,13 +21,15 @@ get_header();
             </div>
         </header>
         <div id="main" class="grid-center main">
-            <div class="col-12 slider">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png"/>
-            </div>
-            <div class="col-12 grid-center caption">
-                <div class="col-8">
-                    En cada caso particular, nuestro compromiso personal y
-                    nuestra trayectoria prfesional acompañan a cada uno de nuestros clientes.
+            <div class="col-12 grid slider">
+                <div class="col-12 image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/slider.png"/>
+                </div>
+                <div class="col-12 grid-center caption">
+                    <div class="col-8 text">
+                        En cada caso particular, nuestro compromiso personal y<br>
+                        nuestra trayectoria profesional acompañan a cada uno de nuestros clientes.
+                    </div>
                 </div>
             </div>
         </div>

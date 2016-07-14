@@ -95,3 +95,19 @@ body{
     }
   }
 }
+
+.slider{
+  .caption{
+    color: #58585A;
+    font-size: (19em/16);
+    font-family: rockwell;
+    line-height: 1.2;
+    text-align: center;
+    background: radial-gradient(#ffffff 0%, #cccccc 70%, #000000 250%) ;
+    padding: (24em/19) 0;
+    .text{
+      border: solid 1px #C7C7C8;
+      padding: (12em/19) 0;
+    }
+  }
+}

@@ -51,4 +51,16 @@ body {
     .menu li a:hover {
       background: #9DD8F1; }
 
+.slider .caption {
+  color: #58585A;
+  font-size: 1.1875em;
+  font-family: rockwell;
+  line-height: 1.2;
+  text-align: center;
+  background: radial-gradient(#ffffff 0%, #cccccc 70%, #000000 250%);
+  padding: 1.26316em 0; }
+  .slider .caption .text {
+    border: solid 1px #C7C7C8;
+    padding: 0.63158em 0; }
+
 /*# sourceMappingURL=style.css.map */
