@@ -111,3 +111,81 @@ body{
     }
   }
 }
+
+.section-menu{
+  padding: (55em/16) 0 (25em/16) ;
+  .section-icon{
+    margin: 0 auto;
+    display: table;
+  }
+  .section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: (15em/16);
+    font-family: rockwell;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: (25em/15);
+  }
+  .section-content {
+    font-size: (15em/16);
+    color: #58585A;
+    font-family: gillsans;
+    font-weight: 300;
+    text-align: center;
+  }
+  .section-link{
+    display: block;
+    .more-info-btn{
+      display: table;
+      margin: 0 auto;
+      color: #fff;
+      background: #58585A;
+      font-family: gillsans;
+      font-style: italic;
+      border: none;
+      padding: (5em/16) (10em/16);
+    }
+  }
+}
+
+.flia{
+  .section-title{
+    color:#B069A4;
+  }
+  .section-link{
+    .more-info-btn{
+      background:#B069A4;
+    }
+  }
+}
+
+.comercial{
+  .section-title{
+    color:#AECF48;
+  }
+  .section-link{
+    .more-info-btn{
+      background:#AECF48;
+    }
+  }
+}
+
+.notorial{
+  .section-title{
+    color:#F6A900;
+  }
+  .section-link{
+    .more-info-btn{
+      background:#F6A900;
+    }
+  }
+}
+
+.banner{
+  border-bottom: solid #26A9E0 (33em/16);
+  img{
+    width: 100%;
+  }
+}
