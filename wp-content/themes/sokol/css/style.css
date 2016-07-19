@@ -110,9 +110,42 @@ body {
 .notorial .section-link .more-info-btn {
   background: #F6A900; }
 
-.banner {
-  border-bottom: solid #26A9E0 2.0625em; }
-  .banner img {
+.banner img {
+  width: 100%; }
+
+.about {
+  border-top: solid #26A9E0 2.0625em;
+  border-bottom: solid #26A9E0 4.0625em; }
+  .about .content {
+    padding: 3.125em 0; }
+    .about .content .title {
+      text-transform: uppercase;
+      color: #26A9E0;
+      font-family: rockwell;
+      font-size: 1.25em;
+      position: relative;
+      margin-bottom: 1.25em; }
+      .about .content .title:before {
+        content: "";
+        position: absolute;
+        bottom: -0.4375em;
+        left: -3%;
+        height: 0.125em;
+        width: 75%;
+        background: #C9EAF7; }
+    .about .content .sub-title {
+      font-family: gillsans;
+      font-style: italic;
+      color: #58585A; }
+    .about .content .section-content {
+      font-size: 0.9375em;
+      color: #58585A;
+      font-family: gillsans;
+      font-weight: 300; }
+
+.family .pattern {
+  border-bottom: solid #B069A4 2.0625em; }
+  .family .pattern img {
     width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

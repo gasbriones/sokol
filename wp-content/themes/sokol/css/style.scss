@@ -183,9 +183,59 @@ body{
   }
 }
 
+
 .banner{
-  border-bottom: solid #26A9E0 (33em/16);
   img{
     width: 100%;
+  }
+}
+
+.about{
+  border-top: solid #26A9E0 (33em/16);
+  border-bottom: solid #26A9E0 (65em/16);
+
+  .content{
+    padding: (50em/16) 0;
+
+    .title{
+      text-transform: uppercase;
+      color: #26A9E0;
+      font-family: rockwell;
+      font-size: (20em/16);
+      position: relative;
+      margin-bottom: (25em/20);
+
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: (-7em/16);
+        left: -3%;
+        height: (2em/16);
+        width: 75%;
+        background: #C9EAF7;
+      }
+    }
+
+    .sub-title{
+      font-family: gillsans;
+      font-style: italic;
+      color: #58585A;
+    }
+
+    .section-content{
+      font-size: (15em/16);
+      color: #58585A;
+      font-family: gillsans;
+      font-weight: 300;
+    }
+  }
+}
+
+.family{
+  .pattern{
+    border-bottom: solid #B069A4 (33em/16);
+    img{
+      width: 100%;
+    }
   }
 }
