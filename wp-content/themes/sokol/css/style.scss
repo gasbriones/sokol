@@ -50,22 +50,17 @@
   font-style: normal;
 }
 
-
-
-
-
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  background:#ffffff;
+  background: #ffffff;
 }
 
-body{
+body {
   border-top: #26A9E0 solid (25em/16);
 }
-
 
 .wrapper {
   width: 100%;
@@ -73,15 +68,15 @@ body{
   margin: 0 auto;
 }
 
-.header{
+.header {
 
 }
 
-.menu{
-  li{
+.menu {
+  li {
     float: left;
 
-    a{
+    a {
       display: block;
       text-transform: uppercase;
       color: #57575A;
@@ -89,36 +84,38 @@ body{
       padding: (35em/13) (20em/13) (60em/13);
       text-decoration: none;
       font-family: rockwell;
-      &:hover{
+      &:hover {
         background: #9DD8F1;
       }
     }
   }
 }
 
-.slider{
-  .caption{
+.slider {
+  .caption {
     color: #58585A;
     font-size: (19em/16);
     font-family: rockwell;
     line-height: 1.2;
     text-align: center;
-    background: radial-gradient(#ffffff 0%, #cccccc 70%, #000000 250%) ;
+    background: radial-gradient(#ffffff 0%, #cccccc 70%, #000000 250%);
     padding: (24em/19) 0;
-    .text{
+    .text {
       border: solid 1px #C7C7C8;
       padding: (12em/19) 0;
     }
   }
 }
 
-.section-menu{
-  padding: (55em/16) 0 (25em/16) ;
-  .section-icon{
-    margin: 0 auto;
-    display: table;
+.section-menu {
+  padding: (55em/16) 0 (25em/16);
+  .section-icon {
+    text-align: center;
+    img {
+      width: 26%;
+    }
   }
-  .section-title{
+  .section-title {
     text-align: center;
     text-transform: uppercase;
     font-size: (15em/16);
@@ -135,9 +132,9 @@ body{
     font-weight: 300;
     text-align: center;
   }
-  .section-link{
+  .section-link {
     display: block;
-    .more-info-btn{
+    .more-info-btn {
       display: table;
       margin: 0 auto;
       color: #fff;
@@ -150,54 +147,54 @@ body{
   }
 }
 
-.flia{
-  .section-title{
-    color:#B069A4;
+.flia {
+  .section-title {
+    color: #B069A4;
   }
-  .section-link{
-    .more-info-btn{
-      background:#B069A4;
+  .section-link {
+    .more-info-btn {
+      background: #B069A4;
     }
   }
 }
 
-.comercial{
-  .section-title{
-    color:#AECF48;
+.comercial {
+  .section-title {
+    color: #AECF48;
   }
-  .section-link{
-    .more-info-btn{
-      background:#AECF48;
+  .section-link {
+    .more-info-btn {
+      background: #AECF48;
     }
   }
 }
 
-.notorial{
-  .section-title{
-    color:#F6A900;
+.notorial {
+  .section-title {
+    color: #F6A900;
   }
-  .section-link{
-    .more-info-btn{
-      background:#F6A900;
+  .section-link {
+    .more-info-btn {
+      background: #F6A900;
     }
   }
 }
 
-
-.banner{
-  img{
+.banner {
+  img {
     width: 100%;
   }
 }
 
-.about{
-  border-top: solid #26A9E0 (33em/16);
-  border-bottom: solid #26A9E0 (65em/16);
-
-  .content{
+.block {
+  .content {
     padding: (50em/16) 0;
 
-    .title{
+    .image {
+      text-align: center;
+    }
+
+    .title {
       text-transform: uppercase;
       color: #26A9E0;
       font-family: rockwell;
@@ -205,7 +202,7 @@ body{
       position: relative;
       margin-bottom: (25em/20);
 
-      &:before{
+      &:before {
         content: "";
         position: absolute;
         bottom: (-7em/16);
@@ -216,26 +213,81 @@ body{
       }
     }
 
-    .sub-title{
+    .sub-title {
       font-family: gillsans;
       font-style: italic;
       color: #58585A;
     }
 
-    .section-content{
+    .section-content {
       font-size: (15em/16);
       color: #58585A;
       font-family: gillsans;
       font-weight: 300;
+      ul{
+        padding-left: (40em/15);
+        list-style:unset;
+      }
     }
   }
 }
 
-.family{
-  .pattern{
-    border-bottom: solid #B069A4 (33em/16);
-    img{
-      width: 100%;
+.about {
+  border-top: solid #26A9E0 (33em/16);
+  border-bottom: solid #26A9E0 (65em/16);
+}
+
+
+.right-area {
+  .family {
+    .pattern {
+      border-bottom: solid #B069A4 (33em/16);
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      .title {
+        color: #B069A4;
+        &:before {
+          background: #EBDAE9;
+        }
+      }
     }
   }
+
+  .commerce {
+    .pattern {
+      border-bottom: solid #AECF48 (33em/16);
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      .title {
+        color: #AECF48;
+        &:before {
+          background: #D7E7A4;
+        }
+      }
+    }
+  }
+
+  .notorial {
+    .pattern {
+      border-bottom: solid #F6A900 (33em/16);
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      .title {
+        color: #F6A900;
+        &:before {
+          background: #FBD480;
+        }
+      }
+    }
+  }
+
 }

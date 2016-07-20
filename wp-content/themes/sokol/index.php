@@ -117,14 +117,100 @@ get_header();
         </div>
       </div>
     </section>
-    <section class="col-12 grid-center family">
+    <section class="col-12 grid-center block right-area">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/banner-2.png">
       </div>
-      <div class="col-12 grid pattern">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-flia.png">
+      <div class="col-12 grid family">
+        <div class="col-12 grid pattern">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-flia.png">
+        </div>
+        <div class="col-11 grid-spaceBetween content">
+          <div class="col-4 image">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/flia-icon.png">
+          </div>
+          <div class="col-8">
+            <h1 class="title">Derecho de Familia</h1>
+            <div class="section-content">
+              <p>
+                Tenemos mucha experiencia en el derecho sucesorio y de familia.<br>
+                Asesoramos a nuestros clientes no sólo en procesos sucesorios sino también en la negociación y
+                elaboración de acuerdos particionarios, anticipos de herencia.<br>
+                También asesoramos en divorcios, alimentos, adjudicación de bienes por disolución <br>
+                de sociedad conyugal.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-
+      <div class="col-12 grid commerce">
+        <div class="col-12 grid pattern">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-comerce.png">
+        </div>
+        <div class="col-11 grid-spaceBetween content">
+          <div class="col-4 image">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/comercial-icon.png">
+          </div>
+          <div class="col-8">
+            <h1 class="title">Derecho Comercial</h1>
+            <div class="section-content">
+              <p>
+                Asesoramos en materia comercial y societaria a personas físicas y a grandes empresas, pymes,<br>
+                asistiéndolos en:<br>
+              <ul>
+                <li>Asesoramiento general empresario;</li>
+                <li>Contratos comerciales;</li>
+                <li>Contratos comerciales;</li>
+                <li>
+                  Derecho societario:
+                  <ul>
+                    <li>constitución de sociedades,</li>
+                    <li>compraventa de paquetes accionarios,</li>
+                    <li>acuerdos de accionistas,</li>
+                    <li>
+                      conflictos societarios, contratos colaboración, fusiones y escisiones, trámites y presentaciones<br>
+                      ante la Inspección General de Justicia,
+                    </li>
+                  </ul>
+                </li>
+                <li>Fideicomisos de administración y garantía,</li>
+                <li>Contratos de financiamiento, Concursos, Quiebras y Acuerdos Extrajudiciales,</li>
+                <li> Ejecuciones.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 grid notorial">
+        <div class="col-12 grid pattern">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-notorial.png">
+        </div>
+        <div class="col-11 grid-spaceBetween content">
+          <div class="col-4 image">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/notorial-icon.png">
+          </div>
+          <div class="col-8">
+            <h1 class="title">Derecho Notorial</h1>
+            <div class="section-content">
+              <p>
+                Asesoramos en materia comercial y societaria a personas físicas y a grandes empresas, pymes,<br>
+                asistiéndolos en:
+              <p>
+              <ul>
+                <li>Compraventas</li>
+                <li>Hipotecas</li>
+                <li>Sociedades</li>
+                <li>Poderes</li>
+                <li>Actas Notariales</li>
+                <li>Fideicomisos</li>
+                <li>Donaciones</li>
+                <li>Trámites urgentes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </div>
