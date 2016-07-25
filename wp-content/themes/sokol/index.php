@@ -243,10 +243,10 @@ get_header();
         <div class="col-9 grid-spaceBetween">
           <div class="col-4">
             <h1 class="title">Oficina</h1>
-            <ul>
-              <li>Lavalle 1145, Piso 10 - CABA</li>
-              <li>4382-3986 / 4381-6960</li>
-              <li>elclaria9@gmail.com</br>
+            <ul class="data">
+              <li class="gps">Lavalle 1145, Piso 10 - CABA</li>
+              <li class="phones">4382-3986 / 4381-6960</li>
+              <li class="email">elclaria9@gmail.com</br>
                 drafernandasokol@gmail.com</li>
             </ul>
           </div>
