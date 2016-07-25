@@ -36,7 +36,7 @@ get_header();
       <div class="col-10 grid-spaceBetween">
         <div class="col-3 section-row flia">
           <figure class="section-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/flia-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/flia-icon.png">
           </figure>
           <h1 class="section-title">Derecho de familia</h1>
           <div class="section-content">
@@ -53,7 +53,7 @@ get_header();
         </div>
         <div class="col-3 section-row comercial">
           <figure class="section-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/comercial-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/comercial-icon.png">
           </figure>
           <h1 class="section-title">Derecho comercial</h1>
           <div class="section-content">
@@ -72,7 +72,7 @@ get_header();
         </div>
         <div class="col-3 section-row notorial">
           <figure class="section-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/notorial-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notorial-icon.png">
           </figure>
           <h1 class="section-title">Derecho Notorial</h1>
           <div class="section-content">
@@ -94,11 +94,11 @@ get_header();
 
     <section class="col-12 grid-center about block">
       <div class="col-12 grid-center banner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/banner-1.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-1.png">
       </div>
       <div class="col-11 grid-spaceBetween content">
         <div class="col-4">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/about-img.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/about-img.png">
         </div>
         <div class="col-7">
           <h1 class="title">Estudio Jurídico Claria&Sokol y Asoc.</h1>
@@ -119,15 +119,15 @@ get_header();
     </section>
     <section class="col-12 grid-center block right-area">
       <div class="col-12 grid-center banner">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/banner-2.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-2.png">
       </div>
       <div class="col-12 grid family">
         <div class="col-12 grid pattern">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-flia.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/pattern-flia.png">
         </div>
         <div class="col-11 grid-spaceBetween content">
           <div class="col-4 image">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/flia-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/flia-icon.png">
           </div>
           <div class="col-8">
             <h1 class="title">Derecho de Familia</h1>
@@ -145,11 +145,11 @@ get_header();
       </div>
       <div class="col-12 grid commerce">
         <div class="col-12 grid pattern">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-comerce.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/pattern-comerce.png">
         </div>
         <div class="col-11 grid-spaceBetween content">
           <div class="col-4 image">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/comercial-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/comercial-icon.png">
           </div>
           <div class="col-8">
             <h1 class="title">Derecho Comercial</h1>
@@ -184,11 +184,11 @@ get_header();
       </div>
       <div class="col-12 grid notorial">
         <div class="col-12 grid pattern">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/pattern-notorial.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/pattern-notorial.png">
         </div>
         <div class="col-11 grid-spaceBetween content">
           <div class="col-4 image">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/notorial-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notorial-icon.png">
           </div>
           <div class="col-8">
             <h1 class="title">Derecho Notorial</h1>
@@ -211,6 +211,51 @@ get_header();
           </div>
         </div>
       </div>
+    </section>
+    <section class="col-12 grid-center block correspondent">
+      <div class="col-12 grid-center banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-3.png">
+      </div>
+      <div class="col-11 grid-spaceBetween content">
+        <div class="col-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/correspondent-img.png">
+        </div>
+        <div class="col-7">
+          <h1 class="title">Corresponsales</h1>
+          <h2 class="sub-title">Quienes somos</h2>
+          <div class="section-content">
+            <p>
+              Nuestra modalidad de trabajo es en equipo y personalizada, respondiendo a las necesidades de cada uno de nuestros clientes. Contamos con excelentes  profesionales en las distintas áreas de derecho, y corresponsalías en cada jurisdicción de la Provincia de Buenos Aires, como así también en todo el país.
+            </p>
+            <p>
+              Estudiamos exhaustivamente cada consulta y buscamos dar siempre una solución integradora con las distintas áreas jurídicas que manejamos, usando el mejor criterio y sentido común.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="col-12 grid-center block contact">
+      <div class="col-12 grid-center banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/banner-4.png">
+      </div>
+      <div class="col-12 grid-center content">
+        <div class="col-9 grid-spaceBetween">
+          <div class="col-4">
+            <h1 class="title">Oficina</h1>
+            <ul>
+              <li>Lavalle 1145, Piso 10 - CABA</li>
+              <li>4382-3986 / 4381-6960</li>
+              <li>elclaria9@gmail.com</br>
+                drafernandasokol@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-7">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/mapa.png">
+          </div>
+        </div>
+      </div>
+
     </section>
   </div>
 </div>

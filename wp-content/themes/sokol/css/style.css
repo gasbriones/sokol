@@ -175,4 +175,20 @@ body {
   .right-area .notorial .content .title:before {
     background: #FBD480; }
 
+.correspondent .banner {
+  border-bottom: solid #26A9E0 2.0625em; }
+
+.contact .banner {
+  border-bottom: solid #26A9E0 2.0625em; }
+.contact .content {
+  background: url("../images/pattern-contact.jpg");
+  background-size: 100%;
+  padding: 1.875em; }
+.contact .title {
+  color: #fff !important; }
+  .contact .title:before {
+    height: 0.0625em !important;
+    background: #fff !important;
+    width: 100% !important; }
+
 /*# sourceMappingURL=style.css.map */

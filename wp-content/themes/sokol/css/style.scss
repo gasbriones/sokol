@@ -289,5 +289,30 @@ body {
       }
     }
   }
+}
 
+.correspondent{
+  .banner{
+    border-bottom: solid #26A9E0 (33em/16);
+  }
+}
+
+.contact{
+  .banner{
+    border-bottom: solid #26A9E0 (33em/16);
+  }
+  .content{
+    background: url("../images/pattern-contact.jpg");
+    background-size:100%;
+    padding: (30em/16);
+  }
+
+  .title{
+    color: #fff !important;
+    &:before{
+      height: (1em/16) !important;
+      background: #fff !important;
+      width: 100% !important;
+    }
+  }
 }
