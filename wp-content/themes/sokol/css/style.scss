@@ -72,6 +72,19 @@ body {
 
 }
 
+.border-transparent{
+  display: table;
+  background: rgba(255, 255, 255, 0.2);
+  padding: (12em/16);
+}
+
+.border-transparent-black{
+  display: table;
+  background: rgba(0, 0, 0, 0.03);
+  padding: (12em/16);
+}
+
+
 .menu {
   li {
     float: left;
@@ -318,8 +331,48 @@ body {
 
   .data{
     li{
+      font-size: (18em/16);
       color: #fff;
-      line-height: 2.5;
+      line-height: 1.2;
+      margin-bottom: (20em/18);
+      font-family: gillsans;
+      position: relative;
+
+      &:before{
+        content: "";
+        position: absolute;
+        top:0;
+        left:(-35em/16);
+        height: (27em/16);
+        width: (24em/16);
+        background: url("../images/social.png") no-repeat;
+      }
+
+
+      &.phones{
+        font-size: (24em/18);
+        &:before{
+          left:(-35em/18);
+          background-position: 0 -40px;
+        }
+      }
+
+      &.email{
+        &:before{
+          background-position: 0 -80px;
+        }
+      }
     }
+  }
+}
+
+.form{
+  input[type="text"]{
+    background: #fff;
+    width: 95%;
+    border: none;
+    box-shadow: 1px 1px 1px #64BCD3;
+    margin-bottom: (10em/16);
+    line-height: 2;
   }
 }

@@ -98,7 +98,9 @@ get_header();
       </div>
       <div class="col-11 grid-spaceBetween content">
         <div class="col-4">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/about-img.png">
+          <figure class="border-transparent-black">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/about-img.png">
+          </figure>
         </div>
         <div class="col-7">
           <h1 class="title">Estudio Jurídico Claria&Sokol y Asoc.</h1>
@@ -168,7 +170,8 @@ get_header();
                     <li>compraventa de paquetes accionarios,</li>
                     <li>acuerdos de accionistas,</li>
                     <li>
-                      conflictos societarios, contratos colaboración, fusiones y escisiones, trámites y presentaciones<br>
+                      conflictos societarios, contratos colaboración, fusiones y escisiones, trámites y
+                      presentaciones<br>
                       ante la Inspección General de Justicia,
                     </li>
                   </ul>
@@ -218,23 +221,27 @@ get_header();
       </div>
       <div class="col-11 grid-spaceBetween content">
         <div class="col-4">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/correspondent-img.png">
+          <figure class="border-transparent-black">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/correspondent-img.png">
+          </figure>
         </div>
         <div class="col-7">
           <h1 class="title">Corresponsales</h1>
           <h2 class="sub-title">Quienes somos</h2>
           <div class="section-content">
             <p>
-              Nuestra modalidad de trabajo es en equipo y personalizada, respondiendo a las necesidades de cada uno de nuestros clientes. Contamos con excelentes  profesionales en las distintas áreas de derecho, y corresponsalías en cada jurisdicción de la Provincia de Buenos Aires, como así también en todo el país.
+              Nuestra modalidad de trabajo es en equipo y personalizada, respondiendo a las necesidades de cada uno de
+              nuestros clientes. Contamos con excelentes profesionales en las distintas áreas de derecho, y
+              corresponsalías en cada jurisdicción de la Provincia de Buenos Aires, como así también en todo el país.
             </p>
             <p>
-              Estudiamos exhaustivamente cada consulta y buscamos dar siempre una solución integradora con las distintas áreas jurídicas que manejamos, usando el mejor criterio y sentido común.
+              Estudiamos exhaustivamente cada consulta y buscamos dar siempre una solución integradora con las distintas
+              áreas jurídicas que manejamos, usando el mejor criterio y sentido común.
             </p>
           </div>
         </div>
       </div>
     </section>
-
     <section class="col-12 grid-center block contact">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/banner-4.png">
@@ -247,15 +254,46 @@ get_header();
               <li class="gps">Lavalle 1145, Piso 10 - CABA</li>
               <li class="phones">4382-3986 / 4381-6960</li>
               <li class="email">elclaria9@gmail.com</br>
-                drafernandasokol@gmail.com</li>
+                drafernandasokol@gmail.com
+              </li>
             </ul>
           </div>
-          <div class="col-7">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/mapa.png">
+          <div class="col-6">
+            <figure class="border-transparent">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/notcompress/mapa.png">
+            </figure>
           </div>
         </div>
       </div>
-
+    </section>
+    <section class="col-12 grid-center block form">
+      <div class="col-8 grid">
+        <h1 class="title">Envianos tu consulta</h1>
+        <form class="col-12 grid">
+          <div class="col-12 grid-spaceBetween">
+            <div class="col-6">
+              <input type="text" />
+            </div>
+            <div class="col-6">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="col-12 grid-spaceBetween">
+            <div class="col-6">
+              <input type="text" />
+            </div>
+            <div class="col-6">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="col-12 grid">
+            <textarea class="col-12"></textarea>
+          </div>
+          <div class="col-12">
+            <input type="submit" value="Enviar consulta">
+          </div>
+        </form>
+      </div>
     </section>
   </div>
 </div>
