@@ -4,21 +4,7 @@ get_header();
 <body <?php body_class(); ?>>
 <div id="main" class="clearfix wrapper">
   <header id="header" class="header">
-    <div class="grid grid-middle">
-      <div class="col-4 logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-claria-sokol.png"/>
-      </div>
-      <div class="col-8 grid-center grid-middle menu-wrapper">
-        <ul class="menu col-11">
-          <li><a href="#acerca-de">Inicio</a></li>
-          <li><a href="#museos">Estudio</a></li>
-          <li><a href="#exposiciones">Áreas del derecho</a></li>
-          <li><a href="#equipo">Corresponsales</a></li>
-          <li><a href="#lo-que-estamos-haciendo">Novedades</a></li>
-          <li><a href="#prensa">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
+    <?php include "nav.php"?>
   </header>
   <div id="main" class="grid-center main">
     <section class="col-12 grid slider">
@@ -92,7 +78,7 @@ get_header();
       </div>
     </section>
 
-    <section class="col-12 grid-center about block">
+    <section id="estudio" class="col-12 grid-center about block">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/banner-1.png">
       </div>
@@ -119,7 +105,7 @@ get_header();
         </div>
       </div>
     </section>
-    <section class="col-12 grid-center block right-area">
+    <section id="areas-del-derecho" class="col-12 grid-center block right-area">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/banner-2.png">
       </div>
@@ -215,7 +201,7 @@ get_header();
         </div>
       </div>
     </section>
-    <section class="col-12 grid-center block correspondent">
+    <section id="corresponsales" class="col-12 grid-center block correspondent">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/banner-3.png">
       </div>
@@ -242,7 +228,7 @@ get_header();
         </div>
       </div>
     </section>
-    <section class="col-12 grid-center block contact">
+    <section id="contacto" class="col-12 grid-center block contact">
       <div class="col-12 grid-center banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/banner-4.png">
       </div>
@@ -267,15 +253,16 @@ get_header();
       </div>
     </section>
     <section class="col-12 grid-center block form">
-      <div class="col-8 grid">
+      <div class="col-8 grid content">
         <h1 class="title">Envianos tu consulta</h1>
+        <h2 class="sub-title">Póngase en contacto con nosotros y despeje sus dudas.</h2>
         <form class="col-12 grid">
           <div class="col-12 grid-spaceBetween">
             <div class="col-6">
               <input type="text" />
             </div>
             <div class="col-6">
-              <input type="text" />
+              <input type="text" class="right"/>
             </div>
           </div>
           <div class="col-12 grid-spaceBetween">
@@ -283,14 +270,14 @@ get_header();
               <input type="text" />
             </div>
             <div class="col-6">
-              <input type="text" />
+              <input type="text" class="right"/>
             </div>
           </div>
           <div class="col-12 grid">
             <textarea class="col-12"></textarea>
           </div>
           <div class="col-12">
-            <input type="submit" value="Enviar consulta">
+            <input type="submit" class="right" value="Enviar consulta">
           </div>
         </form>
       </div>
