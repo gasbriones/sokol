@@ -222,6 +222,11 @@ body {
       background-position: 0 -40px; }
   .contact .data li.email:before {
     background-position: 0 -80px; }
+  .contact .data li a {
+    color: #ffffff;
+    text-decoration: none; }
+    .contact .data li a:hover {
+      text-decoration: underline; }
 
 .form {
   background: radial-gradient(#ffffff 0%, #3386AE 90%, #0C6899 250%); }

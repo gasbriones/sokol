@@ -362,6 +362,14 @@ body {
           background-position: 0 -80px;
         }
       }
+
+      a{
+        color: #ffffff;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
