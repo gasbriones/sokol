@@ -188,6 +188,23 @@ body {
 .correspondent .banner {
   border-bottom: solid #26A9E0 2.0625em; }
 
+.news .banner {
+  border-bottom: solid #26A9E0 2.0625em; }
+.news .title {
+  text-transform: none !important; }
+  .news .title:before {
+    display: none; }
+.news .content {
+  margin: 1.875em 0;
+  padding: 0.625em; }
+  .news .content:nth-child(even) {
+    background: #F3F4F4; }
+.news .border-transparent-black {
+  padding: 0;
+  width: 100%; }
+  .news .border-transparent-black img {
+    width: 100%; }
+
 .contact .banner {
   border-bottom: solid #26A9E0 2.0625em; }
 .contact .content {
