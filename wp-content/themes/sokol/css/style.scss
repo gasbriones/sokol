@@ -310,6 +310,33 @@ body {
   }
 }
 
+.news{
+  .banner{
+    border-bottom: solid #26A9E0 (33em/16);
+  }
+  .title{
+    text-transform: none !important;
+
+    &:before{
+      display: none;
+    }
+  }
+  .content{
+    margin: (30em/16) 0;
+    padding: (10em/16);
+    &:nth-child(even) {
+      background: #F3F4F4;
+    }
+  }
+  .border-transparent-black{
+    padding: 0;
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+}
+
 .contact{
   .banner{
     border-bottom: solid #26A9E0 (33em/16);
